@@ -10,7 +10,7 @@ GITHUB_CLIENT_ID = 'Ov23lioN9ML67y2VsT1V'
 GITHUB_CLIENT_SECRET = '6b10cc364a33441dac00a3360e57cbcd4d12bc68'
 
 # Replace localhost with your Railway app's live URL (update after 1st deployment)
-RAILWAY_URL = os.environ.get("RAILWAY_URL", "https://your-subdomain.up.railway.app")
+RAILWAY_URL = os.environ.get("RAILWAY_URL", "https://anirudh-flask.up.railway.app/")
 
 @app.route('/')
 def login():
